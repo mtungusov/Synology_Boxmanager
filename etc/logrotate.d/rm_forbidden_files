@@ -1,0 +1,3 @@
+/volume1/homes/log/rm_forbidden_files*log {
+        missingok
+}

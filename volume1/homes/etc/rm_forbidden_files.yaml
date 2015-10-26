@@ -1,0 +1,14 @@
+# YAML
+---
+root_dir: "/volume1"
+wildcard: "I_*"
+
+# Forbidden Extensions
+default_exts:
+  - dwg
+
+# By Users
+users:
+  I_LastnameFirstname:
+  - dwg
+  - png

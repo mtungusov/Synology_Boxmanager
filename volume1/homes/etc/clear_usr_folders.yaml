@@ -1,0 +1,8 @@
+# YAML
+---
+root_dir: "/volume1"
+wildcard: "[E,I]_*"
+
+# Setting delta for Users
+deltas:
+  I_LastnameFirstname: 1

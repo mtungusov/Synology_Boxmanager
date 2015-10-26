@@ -1,0 +1,9 @@
+#minute	hour	mday	month	wday	who	command
+0	0	1	*	*	root	/usr/syno/bin/syno_disk_health_record
+11	22	*	*	1,2,3,4,6	root	/usr/syno/bin/synopkg chkupgradepkg
+0	3	*	*	3,6	root	/tmp/synoschedtask --run id=1
+0	0	*	*	0,1,2,3,4,5,6	root	/tmp/synoschedtask --run id=2
+0	2	*	*	1	root	/tmp/synoschedtask --run id=3
+0,5,10,15,20,25,30,35,40,45,50,55	*	*	*	*	root	/home/securityuser/bin/cp_usr_folders_to_mirror.sh 2>&1 >> /volume1/homes/.security_mirror/cp_usr_folders_to_mirror.log
+5	0	*	*	*	root	/home/boxmanager/bin/clear_usr_folders.py 2>&1 >> /volume1/homes/log/clear_usr_folders.log
+0,10,20,30,40,50	*	*	*	*	root	/home/boxmanager/bin/rm_forbidden_files.py 2>&1 >> /volume1/homes/log/rm_forbidden_files.log

@@ -1,0 +1,3 @@
+/volume1/homes/.security_mirror/cp_usr_folders_to_mirror*log {
+        missingok
+}
